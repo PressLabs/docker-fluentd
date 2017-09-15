@@ -1,0 +1,54 @@
+[
+    {
+        "name": "agent",
+        "type": "STRING"
+    },
+    {
+        "name": "date_time",
+        "type": "DATETIME"
+    },
+    {
+        "name": "ip",
+        "type": "STRING"
+    },
+    {
+        "name": "request_id",
+        "type": "STRING"
+    },
+    {
+        "name": "actor",
+        "type": "RECORD",
+        "fields": [
+            {
+                "name": "id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "type",
+                "type": "STRING"
+            },
+            {
+                "name": "meta",
+                "type": "STRING"
+            }
+        ]
+    },
+    {
+        "name": "target",
+        "type": "RECORD",
+        "fields": [
+            {
+                "name": "id",
+                "type": "INTEGER"
+            },
+            {
+                "name": "type",
+                "type": "STRING"
+            },
+            {
+                "name": "meta",
+                "type": "STRING"
+            }
+        ]
+    }
+]
