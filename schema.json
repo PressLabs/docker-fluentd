@@ -5,10 +5,14 @@
     },
     {
         "name": "date_time",
-        "type": "DATETIME"
+        "type": "STRING"
     },
     {
         "name": "ip",
+        "type": "STRING"
+    },
+    {
+        "name": "action",
         "type": "STRING"
     },
     {

@@ -10,4 +10,4 @@ RUN apk update \
     && rm -rf /var/cache/apk/* \
     && rm -rf /tmp/* /var/tmp/* /usr/lib/ruby/gems/*/cache/*.gem
 
-COPY bigquery.conf /fluentd/plugins/
+COPY bigquery.conf /fluentd/etc/fluent.conf
